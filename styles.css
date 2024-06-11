@@ -16,6 +16,15 @@ header {
 h1 {
     margin: 0;
     font-size: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 img.project-gif {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
 }
 
 h2 {
@@ -48,9 +57,23 @@ main {
     width: 200px;
 }
 
+.calculator img.calc-gif {
+    max-width: 100%;
+    width: 100px; /* Set width for small GIF */
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5em;
+}
+
 .calculator h3 {
     font-size: 1.2em;
     margin-bottom: 0.5em;
+}
+
+.calculator p {
+    font-size: 1em;
+    margin: 0.5em 0;
+    color: #777;
 }
 
 .calculator a {
