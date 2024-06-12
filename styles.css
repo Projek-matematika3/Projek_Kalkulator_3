@@ -23,8 +23,8 @@ h1 {
     color: #fff;
 }
 
-h1 .header-gif-medium {
-    width: 70x;
+h1 .header-gif-small {
+    width: 70px; /* Sedikit mengurangi ukuran GIF pertama */
     height: auto;
     margin-right: 10px;
 }
