@@ -21,8 +21,8 @@ h1 {
     justify-content: center;
 }
 
-h1 .small-gif {
-    width: 50px;
+h1 .medium-gif {
+    width: 100px; /* Ukuran sedang untuk GIF pada header */
     height: auto;
     margin-right: 10px;
 }
@@ -58,7 +58,7 @@ main {
 }
 
 .calculator img.small-gif {
-    width: 100px;
+    width: 100px; /* Ukuran kecil untuk GIF pada kalkulator */
     height: auto;
     border-radius: 8px;
     margin-bottom: 0.5em;
