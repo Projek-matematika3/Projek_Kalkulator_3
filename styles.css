@@ -24,7 +24,7 @@ h1 {
 }
 
 h1 .header-gif-small {
-    width: 50px; /* Ukuran GIF pertama diperkecil */
+    width: 40px; /* Mengurangi ukuran GIF pertama */
     height: auto;
     margin-right: 10px;
 }
