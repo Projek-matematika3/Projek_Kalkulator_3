@@ -2,15 +2,16 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
     color: #333;
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #6c757d;
     color: white;
     text-align: center;
     padding: 1em 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
@@ -19,10 +20,11 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #17a2b8;
 }
 
 h1 .header-gif {
-    width: 90px; /* Sedikit lebih besar dari sebelumnya */
+    width: 100px;
     height: auto;
     margin-right: 10px;
 }
@@ -31,12 +33,14 @@ h2 {
     margin: 0;
     font-size: 1.5em;
     font-weight: normal;
+    color: #ffc107;
 }
 
 .welcome-text {
     margin-top: 0.5em;
     font-size: 1.2em;
     font-weight: normal;
+    color: #28a745;
 }
 
 main {
@@ -60,11 +64,16 @@ main {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 1em;
     text-align: center;
-    width: 200px;
+    width: 220px;
+    transition: transform 0.2s;
+}
+
+.calculator:hover {
+    transform: translateY(-10px);
 }
 
 .calculator img.small-gif {
-    width: 100px;
+    width: 80px;
     height: auto;
     border-radius: 8px;
     margin-bottom: 0.5em;
@@ -73,32 +82,33 @@ main {
 .calculator h3 {
     font-size: 1.2em;
     margin-bottom: 0.5em;
+    color: #007bff;
 }
 
 .calculator p {
     font-size: 1em;
     margin: 0.5em 0;
-    color: #777;
+    color: #6c757d;
 }
 
 .calculator a {
     text-decoration: none;
-    color: #4CAF50;
+    color: #ffc107;
     font-weight: bold;
     display: block;
     padding: 0.5em 0;
-    border: 2px solid #4CAF50;
+    border: 2px solid #ffc107;
     border-radius: 4px;
     transition: background-color 0.3s, color 0.3s;
 }
 
 .calculator a:hover {
-    background-color: #4CAF50;
+    background-color: #ffc107;
     color: white;
 }
 
 footer {
-    background-color: #4CAF50;
+    background-color: #6c757d;
     color: white;
     text-align: center;
     padding: 0.5em 0;
