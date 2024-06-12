@@ -23,9 +23,9 @@ h1 {
     color: #fff;
 }
 
-h1 .header-gif {
-    width: 120x;
-    height: 120px;
+h1 .header-gif-medium {
+    width: 90x;
+    height: auto;
     margin-right: 10px;
 }
 
